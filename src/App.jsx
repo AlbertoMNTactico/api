@@ -35,6 +35,9 @@ function App() {
           <h2>Información de la tarjeta:</h2>
           <p>Nombre: {cardData.name}</p>
           <p>Tipo: {cardData.type_line}</p>
+          <p>Set Name: {cardData.set_name}</p>
+          <p>Mana Cost: {cardData.mana_cost}</p>
+          <p>Oracle Text: {cardData.oracle_text}</p>
           {cardData.image_uris && (
             <div>
               <h2>Imagen de la tarjeta:</h2>
